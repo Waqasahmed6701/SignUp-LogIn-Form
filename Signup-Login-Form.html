@@ -1,0 +1,46 @@
+<html>
+
+<head>
+    <title>SignUp & LogIn Form</title>
+    <link rel="stylesheet" href="Signup-Login-Form.css">
+    <script src="https://kit.fontawesome.com/a33c1ec5f8.js" crossorigin="anonymous">
+    </script>
+</head>
+
+<body>
+
+    <!-- HTML Code -->
+    <div class="form_div">
+        <div class="form_box">
+            <div class="button_box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+                <button type="button" class="toggle-btn" onclick="signup()">Sign Up</button>
+            </div>
+            <div class=" social_icons">
+                <i class="fa-brands fa-facebook icons"></i>
+                <i class="fa-brands fa-linkedin icons"></i>
+                <i class="fa-brands fa-instagram icons"></i>
+            </div>
+            <form action="" id="log_in" class="input_group">
+                <input type="text" class="input_field" name="usernsme" placeholder="User Id" required />
+                <input type="password" class="input_field" name="password" placeholder="Enter Password" required />
+                <input type="checkbox" class="check_box"><span>Remember Password</span>
+                <button type="submit" class="submit_button">Log In</button>
+            </form>
+            <form action="" id="sign_up" class="input_group">
+                <input type="text" class="input_field" name="usernsme" placeholder="User Id" required />
+                <input type="Email" class="input_field" name="useremail" placeholder="Email Id" required />
+                <input type="password" class="input_field" name="password" placeholder="Enter Password" required />
+                <input type="checkbox" class="check_box"><span>Agree to the terms & Conditions </span>
+                <button type="submit" class="submit_button">Sign Up</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- JS File Source -->
+    <script src="Signup-Login-form.js"></script>
+
+</body>
+
+</html>
